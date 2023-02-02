@@ -36,6 +36,12 @@ Date : 02-02-2023 */
     font-size: 65px;
     color: #1e2531;
 }
+.heading-2 {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 65px;
+    color: #1e2531;
+}
 .logo {
     align-self: flex-end;
 }
@@ -193,7 +199,11 @@ footer {
         width: 90%;
     }
     .heading-1 {
-        font-size: 50px;
+        font-size: 40px;
+        margin-right: 5%;
+    }
+    .heading-2 {
+        font-size: 40px;
         margin-right: 5%;
     }
     .logo {
@@ -248,8 +258,8 @@ footer {
         height: 20%;
     }
     .bg {
-        height: 200px;
-        font-size: 20px;
+        height: 150px;
+        font-size: 15px;
     }
 
     .join-button a {
