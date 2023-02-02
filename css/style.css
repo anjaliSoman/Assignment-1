@@ -10,7 +10,7 @@ Date : 02-02-2023 */
 .banner {
     background-image: url("../images/academy-banner.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 800px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -184,15 +184,87 @@ footer {
 @media screen and (max-width: 576px) {
     .banner {
         background-image: none;
-        background-color: #d8d7d7;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        background-color: #c3c0c0;
+    }
+    .banner-wrap {
+        width: 100%;
+    }
+    .heading {
+        width: 90%;
     }
     .heading-1 {
-        /* align-self: flex-end; */
-        font-weight: 900;
-        font-size: 30px;
-        /* color: #1e2531; */
+        font-size: 50px;
+        margin-right: 5%;
+    }
+    .logo {
+        margin-right: 5%;
+    }
+    .description {
+        position: static;
+    }
+    .description-img img {
+        margin: 5%;
+        width: 90%;
+    }
+    .description-specialities {
+        width: 90%;
+        height: 55%;
+        padding: 3%;
+        position: static;
+        margin-left: 5%;
+    }
+    .description-specialities > h2 {
+        padding: 2%;
+        margin: 0 4%;
+        font-size: 20px;
+    }
+    .description-text {
+        font-size: 20px;
+        margin: 3%;
+        line-height: 30px;
+    }
+    .module {
+        height: 400px;
+    }
+    .courses {
+        gap: 10px;
+        font-size: 15px;
+    }
+    .courses > div {
+        width: 25%;
+        padding: 10px;
+    }
+    .para {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .specialities > div {
+        padding: 5px;
+    }
+    .speciality-1 {
+        height: 20%;
+    }
+    .speciality-2 {
+        height: 20%;
+    }
+    .bg {
+        height: 200px;
+        font-size: 20px;
+    }
+
+    .join-button a {
+        font-size: 20px;
+        padding: 10px 35px;
+    }
+    .address {
+        width: 90%;
+    }
+    .sub {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    footer {
+        margin: 3%;
     }
 }
