@@ -274,7 +274,10 @@ footer {
         justify-content: space-between;
     }
     .office div {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .office p {
+        font-size: 15px;
     }
     footer {
         margin: 3%;
