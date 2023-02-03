@@ -267,13 +267,15 @@ footer {
         padding: 10px 35px;
     }
     .address {
-        width: 90%;
+        width: 95%;
     }
     .sub {
         width: 100%;
         justify-content: space-between;
     }
-
+    .office div {
+        padding-bottom: 10px;
+    }
     footer {
         margin: 3%;
     }
